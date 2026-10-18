@@ -170,3 +170,5 @@ To ensure Google and other search engines **never index or rank administrative o
 - `robots.txt` explicitly disallows `/admin` and `/admin/`.
 - `sitemap.xml` strictly excludes `/admin` and all internal portal routes.
 - Prerendering skips `/admin` so no sensitive administrative HTML is pre-baked into public static assets.
+
+-  ok let me check
