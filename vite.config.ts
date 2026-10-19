@@ -4,7 +4,11 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
+  // Yeh line zaroori hai, iske baghair error aayega:
+  const isGithubAction = process.env.GITHUB_ACTIONS === 'true';
+
   return {
+    base: isGithubAction ? './' : '/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
