@@ -112,4 +112,4 @@ Every item from the "Changing required for Plush Comfort" document, with what wa
 ## Small related fixes made while doing the above
 - Star ratings and rating schema only show when a product has real reviews; new products start with 0 reviews (Google policy).
 - `npm start` now always runs in production mode.
-- The upload size limit allows MP4 videos up to 20 MB.
+- The upload size limit allows MP4 videos up to 20 MB..
