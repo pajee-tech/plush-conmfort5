@@ -222,4 +222,4 @@ Plush Comfort UK features a dedicated, private Content Management System located
 * **Cluster &rarr; Pillar:** Cluster articles automatically render a prominent **"Part of Pillar Topic Cluster"** banner linking directly to the parent pillar.
 * **Cluster &rarr; Commercial Product:** Articles feature rich markdown links to products (`/product/:slug`) and categories (`/category/:slug`), plus a bottom **"Pieces Featured in this Guide"** product carousel.
 * **Orphan Content Detection:** The CMS dashboard identifies any cluster articles lacking a parent pillar or containing 0 internal links.
-* **Dynamic XML Sitemap:** Automatically generates and exports production `sitemap.xml` entries for all published, indexable articles while filtering out drafts and noindex pages.
+* **Dynamic XML Sitemap:** Automatically generates and exports production `sitemap.xml` entries for all published, indexable articles while filtering out drafts and noindex pages...
